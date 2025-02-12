@@ -1,0 +1,112 @@
+@media screen and (max-width: 1300px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+  .nav-container {
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: 90px;
+    background-color: #262066;
+    display: none;
+  }
+
+  .logo-container {
+    display: none;
+  }
+
+  .hero-box {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .hero-box img {
+    max-width: 100%;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 70px 0;
+  }
+
+  .nav-links a {
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+  }
+
+  .menu-icon {
+    position: absolute;
+    display: block;
+    right: 8px;
+    top: 20px;
+    height: 60px;
+    font-size: 2rem;
+    z-index: 100;
+    color: rgb(131, 131, 131);
+    cursor: pointer;
+  }
+
+  .logo-mobile {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+    z-index: 100;
+  }
+
+  .logoM-symbol,
+  .logoM-word {
+    height: 1.5rem;
+  }
+
+  .catchingText p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .evniaOled img {
+    margin: 2rem auto;
+  }
+
+  .product {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .product-text {
+    padding: 2rem 0 0 0;
+  }
+
+  .video {
+    margin: 5rem auto;
+    padding: 0 2rem;
+  }
+
+  .reverse {
+    flex-direction: column;
+  }
+
+  .footer {
+    padding: 1rem;
+  }
+
+  .footer p {
+    font-size: 1rem;
+  }
+}
