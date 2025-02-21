@@ -160,27 +160,29 @@ h3 {
   box-shadow: 0 0 30px #dbdbdb;
 }
 
-.product {
-  padding-left: 7rem;
-}
-
 .product-reverse {
   flex-direction: row-reverse;
-  padding-right: 3rem;
 }
 
 .product-text {
   text-align: left;
-  align-content: center;
+  margin-left: 3rem;
 }
 
-.product-text ul {
+.product-text-r {
+  text-align: left;
+  margin-right: 3rem;
+}
+
+.product-text ul,
+.product-text-r ul {
   padding-left: 1.5rem;
   list-style-type: disc;
   line-height: 1.5;
 }
 
-.product-text li {
+.product-text li,
+.product-text-r li {
   font-size: 1.2rem;
 }
 
@@ -192,6 +194,7 @@ h3 {
 }
 
 .product-text,
+.product-text-r,
 .product-img {
   flex: 1;
   max-width: 50%;
