@@ -166,12 +166,12 @@ h3 {
 
 .product-text {
   text-align: left;
-  margin-left: 3rem;
+  padding-left: 5rem;
 }
 
 .product-text-r {
   text-align: left;
-  margin-right: 3rem;
+  padding-right: 3rem;
 }
 
 .product-text ul,

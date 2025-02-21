@@ -90,8 +90,13 @@
     padding: 2rem;
   }
 
-  .product-text {
+  .product-text,
+  .product-text-r {
     padding: 2rem 0 0 0;
+  }
+
+  .product-text-r {
+    padding-right: 0;
   }
 
   .product,
@@ -102,6 +107,7 @@
   }
 
   .product-text,
+  .product-text-r,
   .product-img {
     max-width: 100%;
   }
