@@ -1,31 +1,15 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const menuIcon = document.querySelector(".menu-icon");
-  const navContainer = document.querySelector(".nav-container");
+const menuIcon = document.querySelector(".menu-icon");
+const menuList = document.querySelector("nav");
+const hamburgerIcon = document.querySelector(".fa-solid");
 
-  // Toggle menu on click
-  menuIcon.addEventListener("click", () => {
-    navContainer.classList.toggle("show");
-
-    if (navContainer.classList.contains("show")) {
-      navContainer.style.display = "flex";
-      menuIcon.classList.remove("fa-bars");
-      menuIcon.classList.add("fa-times");
-    } else {
-      navContainer.style.display = "none";
-      menuIcon.classList.remove("fa-times");
-      menuIcon.classList.add("fa-bars");
-    }
-  });
-
-  //menu resets when resizing back to desktop
-  window.addEventListener("resize", () => {
-    if (window.innerWidth > 768) {
-      navContainer.classList.remove("show");
-      navContainer.style.display = "flex";
-      menuIcon.classList.remove("fa-times");
-      menuIcon.classList.add("fa-bars");
-    } else {
-      navContainer.style.display = "none";
-    }
-  });
+menuIcon.addEventListener("click", () => {
+  if (hamburgerIcon.classList[1] === "fa-bars") {
+    hamburgerIcon.classList.add("fa-xmark");
+    hamburgerIcon.classList.remove("fa-bars");
+    menuList.style.display = "block";
+  } else {
+    hamburgerIcon.classList.add("fa-bars");
+    hamburgerIcon.classList.remove("fa-xmark");
+    menuList.style.display = "none";
+  }
 });
