@@ -8,8 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (navContainer.classList.contains("show")) {
       navContainer.style.display = "flex";
+      menuIcon.classList.remove("fa-bars");
+      menuIcon.classList.add("fa-times");
     } else {
       navContainer.style.display = "none";
+      menuIcon.classList.remove("fa-times");
+      menuIcon.classList.add("fa-bars");
     }
   });
 
@@ -18,6 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (window.innerWidth > 768) {
       navContainer.classList.remove("show");
       navContainer.style.display = "flex";
+      menuIcon.classList.remove("fa-times");
+      menuIcon.classList.add("fa-bars");
     } else {
       navContainer.style.display = "none";
     }
