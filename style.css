@@ -151,25 +151,29 @@ h3 {
   margin-bottom: 1rem;
 }
 
-.product {
+.product,
+.product-reverse {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 5rem;
-  padding: 0 5rem;
   border-radius: 10px;
   box-shadow: 0 0 30px #dbdbdb;
 }
 
-.reverse {
+.product {
+  padding-left: 5rem;
+}
+
+.product-reverse {
   flex-direction: row-reverse;
+  padding-right: 3rem;
 }
 
 .product-text {
   flex: 1;
   text-align: left;
   align-content: center;
-  padding-left: 7rem;
 }
 
 .product-text ul {
@@ -186,6 +190,7 @@ h3 {
   width: 100%;
   max-width: 30rem;
   border-radius: 10px;
+  padding: 3rem;
 }
 
 .button {
