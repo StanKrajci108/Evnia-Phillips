@@ -94,6 +94,22 @@
     padding: 2rem 0 0 0;
   }
 
+  .product,
+  .product-reverse {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+  }
+
+  .product-text,
+  .product-img {
+    max-width: 100%;
+  }
+
+  .product-img img {
+    padding: 0;
+  }
+
   .video {
     margin: 5rem auto;
     padding: 0 2rem;

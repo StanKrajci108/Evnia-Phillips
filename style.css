@@ -140,29 +140,29 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
 .product-container {
   display: flex;
   flex-direction: column;
   gap: 5rem;
 }
 
-h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
 .product,
 .product-reverse {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 5rem;
   border-radius: 10px;
   box-shadow: 0 0 30px #dbdbdb;
 }
 
 .product {
-  padding-left: 5rem;
+  padding-left: 7rem;
 }
 
 .product-reverse {
@@ -171,7 +171,6 @@ h3 {
 }
 
 .product-text {
-  flex: 1;
   text-align: left;
   align-content: center;
 }
@@ -191,6 +190,12 @@ h3 {
   max-width: 30rem;
   border-radius: 10px;
   padding: 3rem;
+}
+
+.product-text,
+.product-img {
+  flex: 1;
+  max-width: 50%;
 }
 
 .button {
