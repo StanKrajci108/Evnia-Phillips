@@ -140,7 +140,6 @@ h2 {
   text-transform: uppercase;
 }
 
-
 .product-container {
   display: flex;
   flex-direction: column;
@@ -216,6 +215,15 @@ h3 {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+.scroll-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .footer {

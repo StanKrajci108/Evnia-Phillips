@@ -13,3 +13,20 @@ menuIcon.addEventListener("click", () => {
     menuList.style.display = "none";
   }
 });
+
+// scroll to top button
+const scrollBtn = document.querySelector(".scroll-btn");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 1000) {
+    scrollBtn.style.display = "block";
+  } else {
+    scrollBtn.style.display = "none";
+  }
+});
+
+scrollBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
