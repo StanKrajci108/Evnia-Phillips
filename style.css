@@ -170,11 +170,6 @@ h3 {
   padding-left: 10rem;
 }
 
-/* .product-text-r {
-  text-align: left;
-  padding-right: 1rem;
-} */
-
 .product-text ul,
 .product-text-r ul {
   padding-left: 1.5rem;
@@ -236,7 +231,6 @@ h3 {
   position: fixed;
   right: 1.2rem;
   bottom: 1.2rem;
-  border-radius: 50%;
   padding: 0.8rem;
   cursor: pointer;
 }
@@ -244,6 +238,13 @@ h3 {
 .scroll-btn img {
   width: 3rem;
   height: auto;
+  transition: all 0.5s ease-in-out;
+  border-radius: 0.9rem;
+}
+
+.scroll-btn img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #727be1, 0 0 25px #ff77e4;
 }
 
 .footer {
