@@ -12,8 +12,9 @@
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
+
   .nav-container {
     flex-direction: column;
     position: absolute;
@@ -78,6 +79,7 @@
   .catchingText p {
     text-align: center;
     font-size: 1.2rem;
+    padding: 2rem;
   }
 
   .evniaOled img {
@@ -99,11 +101,17 @@
     padding-right: 0;
   }
 
+  .product-text li,
+  .product-text-r li {
+    font-size: 1.2rem;
+  }
+
   .product,
   .product-reverse {
     flex-direction: column;
     text-align: center;
-    padding: 3rem;
+    padding: 1rem 3rem;
+    gap: 2rem;
   }
 
   .product-text,
@@ -114,6 +122,10 @@
 
   .product-img img {
     padding: 0;
+  }
+
+  .button {
+    font-size: 2rem;
   }
 
   .video {

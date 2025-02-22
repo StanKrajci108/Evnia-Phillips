@@ -230,12 +230,18 @@ h3 {
 }
 
 .scroll-btn {
+  display: none;
   position: fixed;
   right: 1.2rem;
   bottom: 1.2rem;
   border-radius: 50%;
   padding: 0.8rem;
   cursor: pointer;
+}
+
+.scroll-btn img {
+  width: 3rem;
+  height: auto;
 }
 
 .footer {
