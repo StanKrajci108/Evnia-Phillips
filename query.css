@@ -6,6 +6,12 @@
   h3 {
     font-size: 1.8rem;
   }
+
+  .product-text,
+  .product-text-r {
+    text-align: left;
+    padding-left: 5rem;
+  }
 }
 
 @media (max-width: 768px) {
